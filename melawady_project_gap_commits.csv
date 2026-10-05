@@ -1,0 +1,377 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;bernatgel_karyoploter;20fa00f780d76e3d4f41dd8a6f5687b099547f84;J Wokaty <jennifer.wokaty@sph.cuny.edu>;1698159315;"bump x.y.z version to even y prior to creation of RELEASE_3_18 branch
+"
+pre;bernatgel_karyoploter;f42628583ddff83c71066b3981f16096e1957530;J Wokaty <jennifer.wokaty@sph.cuny.edu>;1698159315;"bump x.y.z version to odd y following creation of RELEASE_3_18 branch
+"
+pre;bernatgel_karyoploter;7403d57992aaab57dbdb0a9962ce68dbc30e8706;Bernat <bernatgel@gmail.com>;1699618833;"Fixed letter color selection
+"
+pre;bernatgel_karyoploter;fde94fb9bfe2149a443a436709e991f44560d69e;Bernat <bernatgel@gmail.com>;1704966776;"Better error for multiple colors in kpArea
+"
+pre;bernatgel_karyoploter;8499737a1c8d4ffaa7b8ef2eeb36421f7d5e511f;Bernat <bernatgel@gmail.com>;1704967853;"Updated docs to clarify the color specification
+"
+pre;bernatgel_karyoploter;87fcb149f520ffe5f097b2af2a07978e2ff35c62;Bernat <bernatgel@gmail.com>;1704968573;Merge branch 'detachedhead' into devel
+pre;bernatgel_karyoploter;cb597a510a8613f40e7cec55cd9efbe89b8650fa;Bernat <bernatgel@gmail.com>;1704971064;"Updated DESCRIPTION to use Authors@R
+"
+pre;bernatgel_karyoploter;2a860f3dfa53d7e605ea073e650616f1ccf74b79;Bernat <bernatgel@gmail.com>;1704971075;"Version Bump
+"
+pre;bernatgel_karyoploter;064c4465ee1acf3c431aee338c7c02d15f6a9dca;J Wokaty <jwokaty@users.noreply.github.com>;1714488965;"bump x.y.z version to even y prior to creation of RELEASE_3_19 branch
+"
+pre;bernatgel_karyoploter;574fd7a5d3c05f52992f67ffdad5d7431226ee16;J Wokaty <jwokaty@users.noreply.github.com>;1714488965;"bump x.y.z version to odd y following creation of RELEASE_3_19 branch
+"
+post;bernatgel_karyoploter;4e6d89c3e716743b13921ab35971fceb92baa220;J Wokaty <jennifer.wokaty@sph.cuny.edu>;1730211413;"bump x.y.z version to odd y following creation of RELEASE_3_20 branch
+"
+post;bernatgel_karyoploter;62ce025fc12868dc87a202e4fc49faa4c57e2bae;J Wokaty <jennifer.wokaty@sph.cuny.edu>;1730211413;"bump x.y.z version to even y prior to creation of RELEASE_3_20 branch
+"
+post;bernatgel_karyoploter;06c3a166bbf2fb8697b78e3ec7ef1a1d13cd86af;A Wokaty <andres.wokaty@sph.cuny.edu>;1744729704;"bump x.y.z version to odd y following creation of RELEASE_3_21 branch
+"
+post;bernatgel_karyoploter;3417f48148dbd7d8c9484a0cc45b57a4ffe1b2a3;A Wokaty <andres.wokaty@sph.cuny.edu>;1744729704;"bump x.y.z version to even y prior to creation of RELEASE_3_21 branch
+"
+post;bernatgel_karyoploter;7cc5fbdde89859ba4bcb5c878a01e9bbcc045e04;Bernat <bernatgel@gmail.com>;1748339800;"Fixes scipen handling
+"
+post;bernatgel_karyoploter;807350be491a1ccbe3dca129abed7642882e670d;Bernat <bernatgel@gmail.com>;1748339800;"Fixes scipen handling
+"
+post;bernatgel_karyoploter;932727e2e669be1ccf136f341007ee1c4ce6bbb6;Bernat <bernatgel@gmail.com>;1748339893;"version bump
+"
+post;bernatgel_karyoploter;77601eb8a9621e8ceb52d6f778c31da5c07c899b;Bernat <bernatgel@gmail.com>;1748343513;"version bump
+
+Increments the package version number to 1.34.1.
+"
+post;bernatgel_karyoploter;2d085114966f99bbb26088d0845c9f8d4dd48b91;Bernat <bernatgel@gmail.com>;1749196520;"Removes strand from plot.region
+
+Remove strand info from keryoplot$plor.region to avoid problems with other external libraries (i.e. bamsignals::bamCoverage returning the coverage flipped)
+"
+post;bernatgel_karyoploter;7269f928cac5461850e9232ae83154f16387517e;Bernat <bernatgel@gmail.com>;1749196520;"Removes strand from plot.region
+
+Remove strand info from keryoplot$plor.region to avoid problems with other external libraries (i.e. bamsignals::bamCoverage returning the coverage flipped)
+"
+pre;kklmn_xrt;0f20cd5448de79fb6666641a6bff19e6e4088bfe;Roman Chernikov <yxrmz@users.noreply.github.com>;1703835658;"Fix missing init parameters in predefined crystals
+
+Predefined crystals derived from CrystalFromCell were initialized with default atoms and atomsXYZ
+""Chantler total"" now enabled by default for Crystal class.
+"
+pre;kklmn_xrt;6dee176bd387cc2daccfbc5aab8eb568a95857e5;Roman Chernikov <yxrmz@users.noreply.github.com>;1703839310;"Fix volume calculation for non-cubic crystals in pytte_x
+"
+pre;kklmn_xrt;6dc5c1517b1a76485ef83899675a6e0327f6ce56;Roman Chernikov <yxrmz@users.noreply.github.com>;1703841094;"Fix updating Crystal curvature in parent OE
+"
+pre;kklmn_xrt;09ae28405f522192227add24f239da77b707e5f5;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1703852106;"remove duplicates in docstrings
+"
+pre;kklmn_xrt;cc61a381e3825e5b3a492518d30eb3d95c760696;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1704390396;"add the recent xrt paper for citation
+"
+pre;kklmn_xrt;8da4c205c7caf3b540adf3f129507d33973c8844;Roman Chernikov <yxrmz@users.noreply.github.com>;1704471286;"pass in_plane_rotation to TTCrystal init
+"
+pre;kklmn_xrt;6d66f7ef0104a7c09cc7e9c16cd404af488fa970;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1704906718;"Update screens.py
+
+Set name before setting orientation. Name is used in error output that may occur in _set_orientation
+"
+pre;kklmn_xrt;f98f6b68a126f8d226ac069bafd9c0a63bb606e9;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1705779199;"Create ExampleOfSlopeErrorMapToParametricMirror.py
+"
+pre;kklmn_xrt;d1cc07536facc033e11c9d9a14ebc384f72d16c1;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1707925415;"Update xrtBentXtal.py
+"
+pre;kklmn_xrt;ebce0ce0cd7aa029f7dad6faa1cb1ca5c58af875;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1707927359;"provide input check
+"
+post;kklmn_xrt;2c03d2f8b81a3201c122c286808f93e1118eddca;kklmn <konstantin.klementiev@gmail.com>;1717580651;"suppress multiple FWHM marks
+"
+post;kklmn_xrt;ecf7cbf07b4203a46c704721a3cd21e3e184bd1f;kklmn <konstantin.klementiev@gmail.com>;1717581101;"tuning_curves: make a loop for energy
+
+Having energy in a loop works for big studies. Having it as an axis of a multidimensional array may result in MemoryError.
+"
+post;kklmn_xrt;4857f9d59cd45251a06b9769aaeb6ffa5b94fe25;kklmn <konstantin.klementiev@gmail.com>;1717581173;"add a correct name to CrystalSi
+
+...it was ""Diamond""
+"
+post;kklmn_xrt;de610adefb1abfa3ce387a113f5e0efeed538a1f;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1718022680;"add import of predefined materials
+"
+post;kklmn_xrt;d712fd98f7a72ec82d212b3ec82ec38de8d67e7d;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1718204928;"add to diffract's output
+"
+post;kklmn_xrt;a2fb6d213aca72f5f4fec4f661dae3a336f3f846;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1718204967;"warn about long slits in wave propagation
+"
+post;kklmn_xrt;5ee8c9ae2c0c779cdbecbd2d821b4a2974dddb97;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1718287851;"add to diffract's output
+"
+post;kklmn_xrt;89e4ccb741ee34780ca01498294d3c7d5017d5dc;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1718712541;"elaborate `noIntersectionSearch` after `diffract`
+"
+post;kklmn_xrt;a99e26ebf0b9f4ab1471b23ca4986376a8ef315a;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1718823210;"elaborate `noIntersectionSearch` after `diffract`
+"
+post;kklmn_xrt;75ead517f88829bc7ce26bde5d265c96eb8c5777;Konstantin Klementiev <konstantin.klementiev@gmail.com>;1719405446;"remove assertion of positive grating groove period
+"
+pre;mummer4_mummer;212c7ca727b1b58d3d0a1320fad074e6e8c48afd;Guillaume Marcais <Guillaume Marcais guillaume@marcais.net>;1352343979;"Initial version 3.23
+"
+pre;mummer4_mummer;7e6e5b37e62ce05e2be421914188c7529e06009f;Guillaume Marcais <Guillaume Marcais guillaume@marcais.net>;1352385577;"Generation of prototypes with cproto. Compilation with tup. No more warnings. make install still broken.
+"
+post;mummer4_mummer;6792591afb0f57e3a065e6cf790a30086aec487c;Guillaume Marçais <gmarcais@umd.edu>;1434397179;"Fixed tup installation.
+"
+post;mummer4_mummer;347f999e7090375a0f3f235ce1e451ba7acb723a;Guillaume Marçais <gmarcais@umd.edu>;1434397525;"Test for mgaps. Move to proper namespace.
+"
+post;mummer4_mummer;41bda3f8d84c42988fbc3fb3bd3f6251572a77f4;Guillaume Marçais <gmarcais@umd.edu>;1434409293;"Union-Find not a global: still buggy.
+"
+post;mummer4_mummer;e4b3ed84343830830c4f81011113ac9195e2dfd7;Guillaume Marcais <gmarcais@umd.edu>;1434412413;"UnionFind an object.
+"
+post;mummer4_mummer;1b7b9ec97d539171ba190641abae09c8ab3af527;Guillaume Marcais <gmarcais@umd.edu>;1434412900;"dos2unix mgaps.cc
+"
+post;mummer4_mummer;a42e39fed4be301fe2195b9f1cf66692b483ddcd;Guillaume Marcais <gmarcais@umd.edu>;1434421017;"Fix compilation with/without NDEBUG
+"
+post;mummer4_mummer;96de2d48c83f8b9a4e4b7ef93218356dfd09dad4;Guillaume Marcais <gmarcais@umd.edu>;1434421066;"Use std::string instead of fixed size buffer for reading. Fix header truncation bug.
+"
+post;mummer4_mummer;bac0bcac1c4591056790b43051fcfa0e627e4570;Guillaume Marcais <gmarcais@umd.edu>;1434423726;"Use C++ I/O, don't synchronize with stdio: a little faster.
+"
+post;mummer4_mummer;71770a56255628980a454a7e3ddc5eeeb9ead584;Guillaume Marcais <gmarcais@umd.edu>;1434427024;"Sort using std::sort instead of qsort. Faster.
+"
+post;mummer4_mummer;784d2ee43a2b99f9faac1d67e7c58fa546fdd89f;Guillaume Marcais <gmarcais@umd.edu>;1434490267;"Refactoring. Separated computation and printing out of clusters.
+"
+pre;nanocomp_mpb;90951babffc4fdfda184099eefef018458fbab82;stevenj <stevenj@fftw.org>;1219197531;"use nonlinear constrained MMA alg. to do proper minimax gap optimization; seems to prevent it from getting stuck at degeneracies, although there are still local minima and some other annoyances
+"
+pre;nanocomp_mpb;3d2e77c9c5aaf2c298b2223a46390fb60acd91a6;stevenj <stevenj@fftw.org>;1219256912;"move material-grid optimization routines into separate file
+"
+pre;nanocomp_mpb;e59a26786a20415c94321e72cedc87b5fb4d3d93;stevenj <stevenj@fftw.org>;1219260646;"added serial option to matrixio interface
+"
+pre;nanocomp_mpb;ec72d3126eb0936f26a660baa5cba55308243a3d;stevenj <stevenj@fftw.org>;1219269162;"added load/save material grids
+"
+pre;nanocomp_mpb;25f8da2137ca3ea83cfbecb0ddef903cc42b8920;stevenj <stevenj@fftw.org>;1219280059;"added material-grids-match-epsilon-file function to initialize the grids from an epsilon.h5 file, via optimization (cool!)
+"
+pre;nanocomp_mpb;eac34bba1da4a3bc40e76dcf862e5c16cc242f03;stevenj <stevenj@fftw.org>;1219293033;"fix randomize-material-grid
+"
+pre;nanocomp_mpb;22d895f6afd4ab962138bf84dd3811a947e2752b;stevenj <stevenj@fftw.org>;1219450836;"renamed nlopt function
+"
+pre;nanocomp_mpb;05c33b27dfde40f5bee399fbfa3718319cad1046;stevenj <stevenj@fftw.org>;1219512726;"added compute-1-group-velocity-component
+"
+pre;nanocomp_mpb;4b789a0edcd7591889a32bfdbf8475d11f2b37d1;stevenj <stevenj@fftw.org>;1219514425;"addec compute-1-group-velocity and compute-1-group-velocity-reciprocal
+"
+pre;nanocomp_mpb;0c6719b644ffa4fabf45ff0471af4b40f3c3fbee;stevenj <stevenj@alum.mit.edu>;1241186991;"fix mpb-split (was missing first chunk of split data!)
+"
+post;nanocomp_mpb;a78331ffd5dd135936dcdc22d05574818c342f3e;stevenj <stevenj@fftw.org>;1284421947;"bugfix: in evectmatrix routines that use scratch arrays, don't assume that scratch * 0 = 0, since scratch may be uninitialized ... explicitly initialize scratch to zero
+"
+post;nanocomp_mpb;4e1c817dc351d3ef0cbc2aaf00613b33d25894b7;kylkaren <kylkaren@mit.edu>;1291651126;"vector3 is now inexact, convert back
+"
+post;nanocomp_mpb;93ee0b41673d98c6aa97cccbf143f1f8375d31ab;stevenj <stevenj@fftw.org>;1292350659;"fix compilation of MPI version
+"
+post;nanocomp_mpb;5ee9cda162398b0c2d2076dcc338080aa497a2eb;stevenj <stevenj@fftw.org>;1297810504;"don't print out moment mesh, even in debuggin mode
+"
+post;nanocomp_mpb;d74b5d944072fe6365d13c8f42f96c01c570b7f9;stevenj <stevenj@fftw.org>;1297896680;"fix no-averaging case (it is commented out, but it is still nice to have it right)
+"
+post;nanocomp_mpb;75133ac057af0d3e04213819252194d57f49ead9;stevenj <stevenj@fftw.org>;1297896723;"more material-grid test cases: testing deps/du
+"
+post;nanocomp_mpb;3147f9fd9a92e3f4674fad1916daab312b2f7b70;stevenj <stevenj@fftw.org>;1298044852;"add epsilon-func wrapper for material-func similar to meep
+"
+post;nanocomp_mpb;d86540f4218d942ba1177cd172eb78ae861d80ce;stevenj <stevenj@fftw.org>;1299520877;"comment out meb stuff
+"
+post;nanocomp_mpb;65b5fadea8059a7a65eef6a4c80b600f40476759;stevenj <stevenj@fftw.org>;1338493830;"fix to compile without HDF5
+"
+post;nanocomp_mpb;14f5147949ed25dee62de237c06daf71c61117a3;stevenj <stevenj@fftw.org>;1338497465;"bug fix: make sure eps is properly initialized when mepsilon function fails
+"
+pre;nickabattista_ib2d;c7276d8c197c2b1eefb4142b6e8c544f008b6616;msantiago2 <malvarado27@ucmerced.edu>;1633629220;"fixed previous commit, added capability for MATLAB 2016b to run the code
+"
+pre;nickabattista_ib2d;540238b48b6750c3c95d229a8d8e8334d8a078e2;msantiago2 <malvarado27@ucmerced.edu>;1633630780;"one more commit to fully add changes
+"
+pre;nickabattista_ib2d;aa49c58d6b67235ced8ea38eb0f3fd22ad16e3bf;Nicholas Battista <nickabattista@gmail.com>;1633985656;"remove all vtk data from repo
+"
+pre;nickabattista_ib2d;be170225854a91b6d516632e3706a662830bff1f;Nicholas Battista <nickabattista@gmail.com>;1633988261;"added checks to set concentration flag to zero, if none present
+"
+pre;nickabattista_ib2d;53df10060c2f7d36c55de477452aecf5a7e9bd74;msantiago2 <malvarado27@ucmerced.edu>;1635012213;"testing script added and several examples fixed
+"
+pre;nickabattista_ib2d;043b5cdc5f0ba1f0ca3220c44e70422fb4313e5f;Nick Battista <nickabattista@gmail.com>;1655141953;"fixed typos in density units in input2d files
+"
+pre;nickabattista_ib2d;54ea31dca81e8b2e84310e2378a11925f11a7a23;Nick Battista <nickabattista@gmail.com>;1655142064;"inserted boolean expressions before storing previous time-step data for concentration dynamics
+"
+pre;nickabattista_ib2d;1a4ecd7ec0f67c5d6dfba2afdf0ea28f5df9168f;Nick Battista <nickabattista@gmail.com>;1655143442;"finally fixed typo in dfluid density units that has persisted since ib2d was first created
+"
+pre;nickabattista_ib2d;25b13ee11ee90db1f54aa5a4d2c9d83829e40963;Nick Battista <nickabattista@gmail.com>;1655143878;Updated README file with paper links
+pre;nickabattista_ib2d;392d99c228cc801ff65766889c72e2e1492fe747;Nick Battista <nickabattista@gmail.com>;1655143953;Update README with paper links
+post;nickabattista_ib2d;bfe2396e39b16e5a0e43ba48833cee863dba5d52;nickabattista <nickabattista@gmail.com>;1706998256;"Extensive speed/efficiencies tests conducted; sped up the fluid solver and force spreading operations by using more efficient numerical linear algebra and vectorized processes
+"
+post;nickabattista_ib2d;c88044b5269c4e405b3c2c8a84a72e952388504d;nickabattista <nickabattista@gmail.com>;1706998929;"Extensive speed/efficiencies tests conducted; sped up the fluid solver and force spreading operations by using more efficient numerical linear algebra and vectorized processes
+"
+post;nickabattista_ib2d;614db0995d3e0f75cd25f88ae1160926f3fd388f;Nick Battista <nickabattista@gmail.com>;1706999538;Update README.md
+post;nickabattista_ib2d;bb6310d7af2a6fce2bf54250c956edca99d7fb67;Nick Battista <nickabattista@gmail.com>;1706999635;Update README.md
+post;nickabattista_ib2d;d0334fd11de16a2920a4d84cb4d86471bb29ee71;Nick Battista <nickabattista@gmail.com>;1707010202;Update README.md
+post;nickabattista_ib2d;f9bb6d5ef916154cd1d59bc63323611dea4e1868;Nick Battista <nickabattista@gmail.com>;1707010437;Update README.md
+post;nickabattista_ib2d;d153b0244701fc11b6decd729982400123464caa;Nick Battista <nickabattista@gmail.com>;1707010527;Update README.md
+post;nickabattista_ib2d;0f818cfdfaf48357fe8dcd731c501417770ca222;Nick Battista <nickabattista@gmail.com>;1707010607;Update README.md
+post;nickabattista_ib2d;0d4dc4379608fe6d374e5956584d99c7f71d37d7;Nick Battista <nickabattista@gmail.com>;1707010636;Update README.md
+post;nickabattista_ib2d;6175bf038bf10d6a5616e0d84e7ff12659ff5000;Nick Battista <nickabattista@gmail.com>;1707012957;Update README.md
+pre;nmslib_nmslib;ef15171ec740ec80e03f5725d3da03a1d7de187d;searchivarius <leo@boytsov.info>;1649102942;"let's try only one MAC OS build for MAC OS v 11.
+"
+pre;nmslib_nmslib;42c0c371618b15c1e3b1253ca65d6b24354c7074;searchivarius <leo@boytsov.info>;1649104156;"yet another attempt fix travis build.
+"
+pre;nmslib_nmslib;7c4c678ab2a14616df7cea12cdfda80b70478846;searchivarius <leo@boytsov.info>;1649256563;"more travis_wait
+"
+pre;nmslib_nmslib;d4af7a3e943498cb78b4de8ee6ae0cd58bd9da89;searchivarius <leo@boytsov.info>;1649415401;"let's try to build without extras.
+"
+pre;nmslib_nmslib;2ccef7c11657a8b0a80cafd1c3912b4c8e7f8df0;searchivarius <leo@boytsov.info>;1650385931;"platform can be both arm and arm64 apparently #485
+"
+pre;nmslib_nmslib;099c15d19a8047f6a0083931b1f64afe7529be1c;luyuncheng <luyuncheng@bytedance.com>;1651065864;"Merge 2336a85daed16bdbc1ccf76917bdd685eb521ffa into b6c6d4ed5b16f2d35143e96ff3a3d676b854d00b
+"
+pre;nmslib_nmslib;ade4bcdc9dd3719990de2503871450b8a62df4a5;searchivarius <leo@boytsov.info>;1653967125;"Combine LICENSE and LICENSE-Apache-2.0 into one file? #515
+"
+pre;nmslib_nmslib;a8084896885f65beb03b7a09afbe6183eb1ec276;Guilhem Niot <guilhem@gniot.fr>;1654504567;"Merge 452453ac7ee7f5bc011dba2f859033cba75733a2 into ade4bcdc9dd3719990de2503871450b8a62df4a5
+"
+pre;nmslib_nmslib;8c4160283caa8576dc53fc3ee43ed350ff2781e5;Julie <julie@insideoutbox.org>;1654531397;"More accurate approach to whether Mac is using ARM
+"
+pre;nmslib_nmslib;8b852c2cb9ac1d64c72f0a163af0e42025dc2c8c;JewlsIOB <100804512+JewlsIOB@users.noreply.github.com>;1654531629;"Merge 8c4160283caa8576dc53fc3ee43ed350ff2781e5 into ade4bcdc9dd3719990de2503871450b8a62df4a5
+"
+post;nmslib_nmslib;163b8e82627f3131456536bd0140e801a2794665;sad1y <max.itcn@mail.ru>;1676631161;"disablabling  sync_with_stdio create very destructive side effects. make it optional
+"
+post;nmslib_nmslib;22d378b965386bc428f0e83bb522958355f4bcfa;sad1y <max.itcn@mail.ru>;1676631276;"Merge 163b8e82627f3131456536bd0140e801a2794665 into ade4bcdc9dd3719990de2503871450b8a62df4a5
+"
+post;nmslib_nmslib;fe0761b51482ce90f450f3ebed41190ac9e4f9a4;Artem Farazei (C8) <92033292+afarazei-c8@users.noreply.github.com>;1697634418;"[ISSUE-535] Include ""utils.h"" for WARN macro
+"
+post;nmslib_nmslib;35bc08ce93a3641df0cd22f69151e833bb77fe44;Artem Farazei (C8) <92033292+afarazei-c8@users.noreply.github.com>;1697642506;"Use rmdir instead of Remove-item
+"
+post;nmslib_nmslib;f405af16ec151c8c0011f7287dfe07233839c8b7;a_farazei <a_farazei@indatalabs.com>;1697666870;"Add Python 3.11 to AppVeyor
+"
+post;nmslib_nmslib;6efa515ce2950318d314c2e936885fa04725e16f;Sergey Fedorov <vital.had@gmail.com>;1710823449;"similarity_search: use correct optflags depending on arch
+"
+post;nmslib_nmslib;91a6095e7843ccd51e5ac6a85622256224118535;Sergey Fedorov <vital.had@gmail.com>;1710824814;"similarity_search: fix Apple clang detection
+"
+post;nmslib_nmslib;d700d93d5efda7349b90f6f0b2373580ced8097d;Tejas Shah <shatejas@amazon.com>;1716872532;"Adds ability to pass ef parameter in the query for hnsw
+
+It defaults to index ef_ value if its not type HNSWQuery
+"
+post;nmslib_nmslib;dcb545a92d7f9d402045433118756c40954c5e29;Leonid Boytsov <searchivarius@users.noreply.github.com>;1719115230;"Merge pull request #548 from barracuda156/darwin
+
+similarity_search: fix Apple clang detection"
+post;nmslib_nmslib;30ca5ce8d6c3edb4548bacad64c7ba9d28b877e2;searchivarius <leo@boytsov.info>;1719115442;"adding an explicit include
+"
+pre;ohdsi_atlas;7c94df2c759827c8d860cbf049d837789a7fefcb;Chris Knoll <cknoll@ohdsi.org>;1744168647;"Escape concept name when placing inside HTML tags.
+"
+pre;ohdsi_atlas;17205052509a69f5fec93191fa55643d151ebcb4;pieterlukasse <pieterlukasse@gmail.com>;1744396276;"fix: adjust attribute name ""disable"" to match what is defined in multi-select.js
+"
+pre;ohdsi_atlas;45fc05a2a8f9fdaf7987ce0ae7138ff97f9687be;pieterlukasse <pieterlukasse@gmail.com>;1744633201;"fix: use the ""disable"" ko binding
+"
+pre;ohdsi_atlas;a28e3cc2c1cc8aa6b144d7e347a57a6259dd42cf;pieterlukasse <pieterlukasse@gmail.com>;1744731082;"Fix: ""disable"" binding in multi-select.js error (#3014)
+
+* fix: adjust attribute name ""disable"" to match what is defined in multi-select.js
+* fix: use the ""disable"" ko binding"
+pre;ohdsi_atlas;e27d074566e73f7e483dc243430e9c63453d43f4;pieterlukasse <pieterlukasse@gmail.com>;1744740605;"Merge b8212063b49ef594ae1e3fbe06b7cd5f6cec70b7 into a28e3cc2c1cc8aa6b144d7e347a57a6259dd42cf
+"
+pre;ohdsi_atlas;a9283ecc4232f2cfb56e205ffe2893f5d66e3279;pieterlukasse <pieterlukasse@gmail.com>;1744740768;"Merge 678afc243e867f07f7c557fc703ab68ff7875bf2 into a28e3cc2c1cc8aa6b144d7e347a57a6259dd42cf
+"
+pre;ohdsi_atlas;5ec3c8b3fc409f7fef49cdc32b64ff8230b9a111;oleg-odysseus <oleg.himself@gmail.com>;1744749494;"Rolled back the forced exclusion of comparative results for CC results with temporal distributions for a scenario with 2 cohorts.
+"
+pre;ohdsi_atlas;7c126fd38bde0a681483652a4264112def44ad25;alex-odysseus <75131044+alex-odysseus@users.noreply.github.com>;1744749500;"Merge 5ec3c8b3fc409f7fef49cdc32b64ff8230b9a111 into a28e3cc2c1cc8aa6b144d7e347a57a6259dd42cf
+"
+pre;ohdsi_atlas;4c30d914ceeaedbdf952c38974a685f8ed0b614e;alex-odysseus <75131044+alex-odysseus@users.noreply.github.com>;1745326251;"Temporal annual distribution functionality and temporal FeatureExtraction capability enablement (#2950)
+
+
+---------
+
+Co-authored-by: wivern <vitaly.koulakov@gmail.com>
+Co-authored-by: git <vitaly.koulakov@odysseusinc.com>
+Co-authored-by: Oleg Kuzik <oleg_kuzik@epam.com>
+Co-authored-by: Oleg Kuzik <oleg.kuzik@odysseusinc.com>
+Co-authored-by: Chris Knoll <cknoll@ohdsi.org>
+Co-authored-by: oleg-odysseus <oleg.himself@gmail.com>"
+pre;ohdsi_atlas;6c410996325f02079eb976913641142dd3dff7c0;oleg-odysseus <oleg.himself@gmail.com>;1745416953;"Updated snapshot/lock text info in the modal dialog, added missing columns 'Class' and 'Vocabulary' to the snapshot table
+"
+post;ohdsi_atlas;0a966fedb0a4a323be44153eab14b170f0666849;oleg-odysseus <oleg.himself@gmail.com>;1751397000;"[issue-3019] Added support for multiple types of filtered objects in the setDataLocalStorage operation
+"
+post;ohdsi_atlas;fccebd783577966c36b58e348055575e515dae93;oleg-odysseus <oleg.himself@gmail.com>;1751397000;"[issue-3019] Added support for multiple types of filtered objects in the setDataLocalStorage operation
+"
+post;ohdsi_atlas;9d9fe8e96740250beff173b341ca2b9f65c0d6a9;Daijiro Wachi <daijiro.wachi@gmail.com>;1758983497;"fix: use _ alias for lodash in config module
+"
+post;ohdsi_atlas;e92c9f7baf60ee2fc3e41480ce936fad39925ea6;Daijiro Wachi <daijiro.wachi@gmail.com>;1758983497;"fix: use _ alias for lodash in config module
+"
+post;ohdsi_atlas;047b9fb52a871207bbaefb6643193a74b9080899;Daijiro Wachi <daijiro.wachi@gmail.com>;1759680944;"Remove unused modules
+"
+post;ohdsi_atlas;47beb4b7f719a615670220dd38f251d63ae1e31b;Daijiro Wachi <daijiro.wachi@gmail.com>;1759680944;"Remove unused modules
+"
+post;ohdsi_atlas;957b446c7d17bf9fa7f4f4e8d2b4b7aa51b3c414;Richard D Boyce, PhD <rdb20@pitt.edu>;1760105840;Merge branch 'master' into feature/global-sharing
+post;ohdsi_atlas;af0abbe6370e3eece0db1f0fd1006824186fef22;Richard D Boyce, PhD <boycer@u.washington.edu>;1760105845;"Merge 957b446c7d17bf9fa7f4f4e8d2b4b7aa51b3c414 into 9d9fe8e96740250beff173b341ca2b9f65c0d6a9
+"
+post;ohdsi_atlas;cfb6fd9a3c864dfc8b15dce70891461ba185c2b6;Daijiro Wachi <daijiro.wachi@gmail.com>;1760522519;"test: add Jest config and utils tests
+
+- Added GitHub Actions workflow to run `npm test` on push and pull requests to master.
+- Introduced Jest configuration (jest.config.js) for unit testing.
+- Added new test files under js/utils for common utility modules:
+  - AutoBind.test.js
+  - BemHelper.test.js
+  - CommonUtils.test.js
+  - DataTypeConverterUtils.test.js
+  - ExceptionUtils.test.js
+- Updated package.json to include Jest test script and dependencies.
+"
+post;ohdsi_atlas;d744c36ff8e66a6517ad0182cc0a3c9b0ace4d33;Daijiro Wachi <daijiro.wachi@gmail.com>;1760522699;"chore: use no-package-json install in ci
+"
+pre;pytorch_audio;5bbc2ee2fdaab1dd92379c84fbbea17be9d9abad;David Pollack <david@da3.net>;1504431714;"add MEL spectrograms with librosa and fixed a few tests.
+"
+pre;pytorch_audio;9538c65fd2a426e931c4f537fd889d7e816a1d25;Soumith Chintala <soumith@gmail.com>;1504445249;"Merge pull request #15 from dhpollack/MEL
+
+add MEL spectrograms transform and fixed a few tests."
+pre;pytorch_audio;38de2cb66b75f94a7679185c5f2ae4c33d85d506;David Pollack <david@da3.net>;1505427561;"mu-law companding transform
+"
+pre;pytorch_audio;9edce71cda5333fafbc447f0c967ed3aa47e8162;Soumith Chintala <soumith@gmail.com>;1505741777;"Merge pull request #16 from dhpollack/mu_law_companding
+
+mu-law companding transform"
+pre;pytorch_audio;599646fcc316d4eb56cbe23b42e313bac455c648;Grant Reaber <grant.reaber@gmail.com>;1507434764;"add get_info, enhance load, remove normalization option to load
+"
+pre;pytorch_audio;0b88ba7ed9b7a7aac899f6bb5bd5163529aa8ac3;Grant Reaber <grant.reaber@gmail.com>;1507459921;"remove created file sinewave.wav
+(it was accidentally added to repo in original pr)
+"
+pre;pytorch_audio;20f34c6cc7105a14412186c9275d39edeeff4388;Raffaele Sena <raff367@gmail.com>;1507598156;"Quick and dirty fix for ""bytes"" not available in python2
+"
+pre;pytorch_audio;f010e165603c6934d7e1e66910a43e982531f663;Raffaele Sena <raff367@gmail.com>;1508783230;"A couple of places that are not completely python2 compatible (missing 'from __future__' import print_function
+"
+pre;pytorch_audio;74b5faa745b106e41d6e34df7a31e230b95b21f5;David Pollack <sent@da3.net>;1508944170;"Merge pull request #19 from raff/python2
+
+Quick and dirty fix for ""bytes"" (in torchaudio.save) not available in python2"
+pre;pytorch_audio;0ed53f218345f0c70ba960742f42ff0de97cf837;greaber <grant.reaber@gmail.com>;1509232361;"Merge 0b88ba7ed9b7a7aac899f6bb5bd5163529aa8ac3 into 74b5faa745b106e41d6e34df7a31e230b95b21f5
+"
+post;pytorch_audio;6e8045ea0eb11db9204883923e0f34c351403646;Soumith Chintala <soumith@gmail.com>;1513568442;"add docstrings for save and load
+"
+post;pytorch_audio;e7eb0be27a01f564f462f42050c706fd88fb4a23;Soumith Chintala <soumith@gmail.com>;1513568899;"fix lint
+"
+post;pytorch_audio;f8b5a06df040e6d9347cdc3cfbdada886109609c;Soumith Chintala <soumith@gmail.com>;1513569844;"generated docs
+"
+post;pytorch_audio;4e1a62bb754edc32ca9a30ca4abaa7e10e93c007;Soumith Chintala <soumith@gmail.com>;1513570079;"add config
+"
+post;pytorch_audio;088d5674cb5ab0e8a4a52c49f7585d258ddb61fd;Soumith Chintala <soumith@gmail.com>;1513570333;"improve README and add sphinx docs generator
+"
+post;pytorch_audio;9e7e5fda5289f7f68ce11f4d642e0bc15e5b8e6e;Soumith Chintala <soumith@gmail.com>;1513570570;"fix header
+"
+post;pytorch_audio;41390a8ca3426812e57619220fb60197eacc625c;David Pollack <david@da3.net>;1516026880;"mel spectrograms in pytorch (no longer req librosa)
+"
+post;pytorch_audio;78be73b7372e2bdaf452e3b642e6059d0f3ad252;David Pollack <david@da3.net>;1516026880;"mel spectrograms in pytorch (no longer req librosa)
+"
+post;pytorch_audio;92ea776f8a11b18ae2e0f3e858970be04acc1079;Soumith Chintala <soumith@gmail.com>;1516293084;"Merge pull request #23 from dhpollack/torchspectrograms
+
+pytorch implementation of MEL spectrograms (no librosa req'd)"
+post;pytorch_audio;03bb7dea94b4c3bf84e30f27fe612b5a2bc7a0af;Soumith Chintala <soumith@gmail.com>;1516684567;"Revert ""pytorch implementation of MEL spectrograms (no librosa req'd)""
+"
+pre;wandb_client;52e496e6fb736e8a51e6b1e8028cc236116cb619;Chris Van Pelt <vanpelt@gmail.com>;1495610522;"Write binary
+"
+pre;wandb_client;e4e930587e6ad145dbdbf1f742b942d63bf645a2;Chris Van Pelt <vanpelt@gmail.com>;1495610962;"Handle no git user configured
+"
+pre;wandb_client;b8fde73283e5edc3eb513ae3273b28f3a7333b6a;Chris Van Pelt <vanpelt@gmail.com>;1495611436;"Namespace exception
+"
+pre;wandb_client;b346d6fb698faaedf24d17463d598581f7977db1;Chris Van Pelt <vanpelt@gmail.com>;1495612697;"Fuck CI
+"
+pre;wandb_client;72dec4dec90104c77ee5db9ebc743e9b2b2c61d9;Chris Van Pelt <vanpelt@gmail.com>;1495612992;"Let's just skip it
+"
+pre;wandb_client;f0119a61aa5570614fb3d4c180f756771c85b193;Chris Van Pelt <vanpelt@gmail.com>;1495613193;"ugggg
+"
+pre;wandb_client;a4034cc6760797284d124d58556acf88ee2e36f2;Chris Van Pelt <vanpelt@gmail.com>;1495613493;"Why doesn't this fail locally?
+"
+pre;wandb_client;e3526c4846b9533a9cb6ef405f67aeda065c554a;Chris Van Pelt <vanpelt@gmail.com>;1495614028;"Bump version: 0.4.8 → 0.4.9
+"
+pre;wandb_client;caa1a6fdcfbcbe4d15b72395c658dd4d08861f07;Chris Van Pelt <vanpelt@gmail.com>;1495664012;"Fix tf-flags
+"
+pre;wandb_client;7b3a32dc159047fc16935203782daa662b245974;Chris Van Pelt <vanpelt@gmail.com>;1495664026;"Bump version: 0.4.9 → 0.4.10
+"
+post;wandb_client;b9dfb0c2c158e2aefd11d68ce2bbf269c8a7d52c;Chris Van Pelt <vanpelt@gmail.com>;1499192996;"New results module, message on pipe, only tag git once, better error handling
+"
+post;wandb_client;130aecb4d63f647b378c5c766f52654cfa2e56ee;Chris Van Pelt <vanpelt@gmail.com>;1499193031;"Bump version: 0.4.10 → 0.4.11
+"
+post;wandb_client;17e1d4d1d5d28c8e005e41d638d1cdca64eb996d;Chris Van Pelt <vanpelt@gmail.com>;1499209082;"Fixed results
+"
+post;wandb_client;d7a95ea62d2d0be3c1ae88b16220b1ad64892fd2;Chris Van Pelt <vanpelt@gmail.com>;1499209095;"Bump version: 0.4.11 → 0.4.12
+"
+post;wandb_client;ed4a3d46d46958617e000a724fbeaf8bebc25b93;Chris Van Pelt <vanpelt@gmail.com>;1499926831;"Added auto-branch detection
+"
+post;wandb_client;379ec017b2ef5c32afd0a6c778fd6a1b3a898a38;Chris Van Pelt <vanpelt@gmail.com>;1499926849;"Bump version: 0.4.12 → 0.4.13
+"
+post;wandb_client;724f8f18cb6d35e0a4c967d4613c448a255ec2fb;Chris Van Pelt <vanpelt@gmail.com>;1500154839;"New sync function to watch directory from current run.  Describe command to store description
+"
+post;wandb_client;bc659f0711817626ace01a1b7171dc016655db81;Chris Van Pelt <vanpelt@gmail.com>;1500589985;"So much hotness
+"
+post;wandb_client;e620a6137dc5df7350adae53ce544608747a6b98;Chris Van Pelt <vanpelt@gmail.com>;1500590002;"cscode!
+"
+post;wandb_client;2f57f89c11bda9cfb8497971d3d7a5fddca0fa13;Chris Van Pelt <vanpelt@gmail.com>;1500774516;"Test fixes
+"
